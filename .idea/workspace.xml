@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="" />
+    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +137,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.oxy [publish]" />
+        <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
+        <item itemvalue="Gradle.oxy [publish]" />
         <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
         <item itemvalue="Gradle.oxy [publish]" />
       </list>
@@ -152,5 +157,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Ptr classes" />
+    <MESSAGE value="Add Range classes" />
+    <MESSAGE value="Add Vector classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vector classes" />
   </component>
 </project>
