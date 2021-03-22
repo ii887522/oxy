@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "ii887522"
-version = "1.0"
+version = "1.0.0"
 
 java {
   withSourcesJar()
@@ -28,7 +28,14 @@ publishing {
   }
   repositories {
     maven {
-      url = uri("https://repo1.maven.org/maven2/")
+      url = uri("https://gitlab.com/api/v4/projects/25306355/packages/maven")
+      credentials(HttpHeaderCredentials::class) {
+        name = "Private-Token"
+        value = "<access-token>"
+      }
+      authentication {
+        create("header", HttpHeaderAuthentication::class)
+      }
     }
   }
 }
