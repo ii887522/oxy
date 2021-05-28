@@ -28,13 +28,11 @@ publishing {
   }
   repositories {
     maven {
-      url = uri("https://gitlab.com/api/v4/projects/25306355/packages/maven")
-      credentials(HttpHeaderCredentials::class) {
-        name = "Private-Token"
-        value = "<access-token>"
-      }
-      authentication {
-        create("header", HttpHeaderAuthentication::class)
+      name = "GitHubPackages"
+      url = uri("https://maven.pkg.github.com/ii887522/oxy")
+      credentials {
+        username = "ii887522"
+        password = "<access-token>"
       }
     }
   }
