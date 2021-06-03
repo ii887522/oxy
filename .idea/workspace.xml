@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Add Vector classes">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/lockdown.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitlab/issue_templates/bug-report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitlab/issue_templates/feature-request.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="oxy" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
+                <item name="cobertura" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -93,7 +89,7 @@
       <recent name="any" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.oxy [publish]">
+  <component name="RunManager" selected="Gradle.oxy [cobertura]">
     <configuration name="Tests in 'ii887522.oxy'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,6 +107,27 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="oxy [cobertura]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cobertura" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -139,13 +156,13 @@
     <list>
       <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
       <item itemvalue="Gradle.oxy [publish]" />
+      <item itemvalue="Gradle.oxy [cobertura]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.oxy [publish]" />
+        <item itemvalue="Gradle.oxy [cobertura]" />
         <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
         <item itemvalue="Gradle.oxy [publish]" />
-        <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
         <item itemvalue="Gradle.oxy [publish]" />
       </list>
     </recent_temporary>
