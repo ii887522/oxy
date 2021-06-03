@@ -2,10 +2,15 @@ plugins {
   java
   kotlin("jvm") version "1.4.31"
   `maven-publish`
+  id("net.saliman.cobertura") version "4.0.0"
 }
 
 group = "ii887522"
 version = "1.0.0"
+
+cobertura {
+  coverageSourceDirs = project.sourceSets.main.get().allSource.srcDirs
+}
 
 java {
   withSourcesJar()
@@ -18,6 +23,7 @@ repositories {
 dependencies {
   implementation(kotlin("stdlib"))
   testImplementation("junit", "junit", "4.12")
+  testRuntimeOnly("org.slf4j", "slf4j-api", "1.7.10")
 }
 
 publishing {
