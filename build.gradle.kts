@@ -37,8 +37,8 @@ publishing {
       name = "GitHubPackages"
       url = uri("https://maven.pkg.github.com/ii887522/oxy")
       credentials {
-        username = "ii887522"
-        password = "<access-token>"
+        username = System.getenv("USERNAME")
+        password = System.getenv("PASSWORD")
       }
     }
   }
