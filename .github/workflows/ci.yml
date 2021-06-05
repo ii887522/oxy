@@ -28,7 +28,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
-      - run: ./gradlew build
+      - run: |
+          chmod 777 ./gradlew
+          ./gradlew build
       - name: Cleanup gradle cache
         run: |
           rm -f ~/.gradle/caches/modules-2/modules-2.lock
@@ -54,7 +56,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
-      - run: ./gradlew cobertura
+      - run: |
+          chmod 777 ./gradlew
+          ./gradlew cobertura
       - name: Upload code coverage report
         uses: actions/upload-artifact@v2
         with:
@@ -87,7 +91,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
-      - run: ./gradlew publish
+      - run: |
+          chmod 777 ./gradlew
+          ./gradlew publish
         env:
           USERNAME: ${{ github.actor }}
           PASSWORD: ${{ secrets.GRADLE_TOKEN }}
