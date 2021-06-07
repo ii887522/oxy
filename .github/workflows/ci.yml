@@ -27,12 +27,18 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-            build
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
+      - name: Cache outputs
+        id: outputs-cache
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-gradle-${{ hashFiles('src/**/*.kt') }}
       - name: Build project
+        if: steps.outputs-cache.outputs.cache-hit != 'true'
         run: |
           chmod 777 ./gradlew
           ./gradlew build
@@ -56,11 +62,15 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-            build
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
+      - name: Cache outputs
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-gradle-${{ hashFiles('src/**/*.kt') }}
       - name: Test project
         run: |
           chmod 777 ./gradlew
@@ -92,11 +102,15 @@ jobs:
           path: |
             ~/.gradle/caches
             ~/.gradle/wrapper
-            build
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
             ${{ runner.os }}-
+      - name: Cache outputs
+        uses: actions/cache@v2
+        with:
+          path: build
+          key: ${{ runner.os }}-gradle-${{ hashFiles('src/**/*.kt') }}
       - name: Deploy project
         run: |
           chmod 777 ./gradlew
