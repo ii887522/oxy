@@ -4,7 +4,7 @@ import ii887522.oxy.struct.IntPtr
 import ii887522.oxy.struct.IntRange
 import ii887522.oxy.functions.clamp
 
-class AnimatedAny<T : Calculatable<T>>(value: T, duration: Int /* animation duration */, private val onAnimationEnd: () -> Unit = { }) {
+class AnimatedAny<T : Calculatable<T>>(value: T, duration: Int /* animation duration */ = 1, private val onAnimationEnd: () -> Unit = { }) {
   var start = value
     private set
 
