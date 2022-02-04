@@ -238,7 +238,7 @@ private fun Array<out JsonToken>.plusNumberTokens(): Array<JsonToken> {
  *
  * @return An array of JSON tokens to be consumed by the next processor.
  */
-fun String.lex() =
+internal fun String.lex() =
   filter { !it.isWhitespace() }
     .toCharTokens()
     .plusStringTokens()

@@ -23,7 +23,7 @@ private fun JsonToken.stringify() = when (this) {
  *
  * @return A JSON string that is converted from the JSON tokens.
  */
-fun Array<out JsonToken>.stringify(): String {
+internal fun Array<out JsonToken>.stringify(): String {
   val result = StringBuilder()
   for (token in this) result.append(token.stringify())
   return result.toString()

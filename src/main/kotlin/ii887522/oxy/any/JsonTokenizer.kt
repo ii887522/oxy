@@ -26,7 +26,7 @@ private fun HashMap<String, Any?>.tokenize(): Array<JsonToken> {
  *
  * @return An array of JSON tokens that is converted from the object.
  */
-fun Any?.tokenize(): Array<JsonToken> {
+internal fun Any?.tokenize(): Array<JsonToken> {
   val tokens = ArrayList<JsonToken>()
   when (this) {
     is Boolean -> tokens.append(if (this) TrueJsonToken else FalseJsonToken)
