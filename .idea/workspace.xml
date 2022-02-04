@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Reengineer with new features">
+    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Release 2.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/any/JsonLexer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/any/JsonParser.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/any/JsonStringer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/any/JsonTokenizer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/any/Reactive.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/any/Reactive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/functions/CollectionExt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/functions/CollectionExt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonLexer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonLexer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonStringer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonStringer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonTokenizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonTokenizer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/CollectionExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/CollectionExt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/JsonTokens.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/JsonTokens.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +138,7 @@
       <recent name="any" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'ii887522.oxy'">
+  <component name="RunManager" selected="Gradle.oxy [cobertura]">
     <configuration name="Tests in 'ii887522.oxy'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

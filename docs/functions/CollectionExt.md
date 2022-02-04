@@ -2,12 +2,9 @@
 
 ## Table of contents
 - [swap](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#swap)
-- [insertionSort](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#insertionSort)
-- [insertionSorts](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#insertionSorts)
-- [mergeSort](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#mergeSort)
 - [sort](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#sort)
-- [List<T>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#List<T>.toArray)
-- [Map<K, V>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#Map<K,V>.toArray)
+- [List<T>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#listttoArray)
+- [Map<K, V>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#mapk-vtoarray)
 
 ## **swap**
 ```kotlin
@@ -27,62 +24,6 @@ assertArrayEquals(arrayOf(1, 0), array)
 ```
 <br />
 
-## **insertionSort**
-```kotlin
-inline fun <T : Comparable<T>> Array<T>.insertionSort(
-  indices: IntRange = IntRange(0, Int.MAX_VALUE), compare: (left: T, right: T) -> Boolean = { left, right -> left > right }
-)
-```
-It sorts a portion of the array by using insertion sort.
-
-`indices`: The indices specify the portion of the array where the elements inside it will become sorted.
-
-`compare`: The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both elements will be swapped, otherwise nothing happens.
-
-### **Example usage:**
-```kotlin
-val numbers = arrayOf(2, 1, 0)
-numbers.insertionSort()
-assertArrayEquals(arrayOf(0, 1, 2), numbers)
-```
-<br />
-
-## **insertionSorts**
-```kotlin
-inline fun <T : Comparable<T>> Array<T>.insertionSorts(runSize: Int = Int.MAX_VALUE, compare: (left: T, right: T) -> Boolean = { left, right -> left > right })
-```
-It sorts the array into a sequence of sorted runs by using insertion sort. A run is a number of consecutive elements which is a part of the array.
-
-`runSize`: The size of the consecutive elements which will become sorted.
-
-`compare`: The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both elements will be swapped, otherwise nothing happens.
-
-### **Example usage:**
-```kotlin
-val numbers = arrayOf(2, 1, 0)
-numbers.insertionSorts()
-assertArrayEquals(arrayOf(0, 1, 2), numbers)
-```
-<br />
-
-## **mergeSort**
-```kotlin
-inline fun <reified T : Comparable<T>> Array<T>.mergeSort(sortedRunSize: Int = 1, compare: (left: T, right: T) -> Boolean = { left, right -> left > right })
-```
-It sorts the array by using merge sort and assuming that there is a sequence of sorted runs in the array. Each sorted run has `sortedRunSize` consecutive elements which is a part of the array.
-
-`sortedRunSize`: The size of the consecutive elements which has become sorted.
-
-`compare`: The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both elements will be swapped, otherwise nothing happens.
-
-### **Example usage:**
-```kotlin
-val numbers = arrayOf(2, 1, 0)
-numbers.mergeSort()
-assertArrayEquals(arrayOf(0, 1, 2), numbers)
-```
-<br />
-
 ## **sort**
 ```kotlin
 inline fun <reified T : Comparable<T>> Array<T>.sort(compare: (left: T, right: T) -> Boolean = { left, right -> left > right })
@@ -99,7 +40,7 @@ assertArrayEquals(arrayOf(0, 1, 2), numbers)
 ```
 <br />
 
-## **List<T>.toArray**
+## **List\<T\>.toArray**
 ```kotlin
 inline fun <reified T> List<T>.toArray(): Array<T>
 ```

@@ -2,7 +2,7 @@
 It is a wrapper over the value so that changes to the value can be notified to all the watchers subscribed to this wrapper. It is used to establish component communications through the value in the wrapper to reduce coupling between components.
 
 ## Table of contents
-- [value](https://github.com/ii887522/oxy/tree/master/docs/any/Reactive.md#lex)
+- [value](https://github.com/ii887522/oxy/tree/master/docs/any/Reactive.md#value)
 - [plusAssign](https://github.com/ii887522/oxy/tree/master/docs/any/Reactive.md#plusAssign)
 
 ## **value**
