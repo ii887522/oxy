@@ -1,3 +1,3 @@
 package ii887522.oxy.struct
 
-data class IntRange(val min: Int = 0, val max: Int = 0)
+data class IntRange(var min: Int = 0, var max: Int = 0)
