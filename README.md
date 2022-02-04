@@ -1,7 +1,7 @@
 # oxy
 It is a general purpose Kotlin library that can help developers create various kinds of applications in no time.
 
-## Table of Contents
+## Table of contents
 - [Prerequisites](https://github.com/ii887522/oxy#prerequisites)
 
 ## Prerequisites
