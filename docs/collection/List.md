@@ -14,6 +14,8 @@ A `List` is a collection of items of type `T` linearly placed together without a
 - [remove](https://github.com/ii887522/oxy/tree/master/docs/collection/List.md#remove)
 - [removeBack](https://github.com/ii887522/oxy/tree/master/docs/collection/List.md#removeBack)
 - [removeFront](https://github.com/ii887522/oxy/tree/master/docs/collection/List.md#removeFront)
+- [shuffle](https://github.com/ii887522/oxy/tree/master/docs/collection/List.md#shuffle)
+- [swap](https://github.com/ii887522/oxy/tree/master/docs/collection/List.md#swap)
 
 ## **get**
 ```kotlin

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Fix link errors">
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Release 2.0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/collection/List.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/collection/List.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/functions/CollectionExt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/functions/CollectionExt.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
