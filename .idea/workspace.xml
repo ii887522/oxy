@@ -4,10 +4,102 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Reduce hardcoding">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Reengineer with new features">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/any/JsonLexer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/any/JsonParser.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/any/JsonStringer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/any/JsonTokenizer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/any/Reactive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/ArrayList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/ArrayStack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/AvlTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/Collection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/HashMap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/LinkedList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/List.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/Map.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/Stack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/collection/Tree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/functions/CollectionExt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/functions/FsExt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/functions/MathExt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/functions/StringExt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/functions/Util.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonLexer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonStringer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonTokenizer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Reactive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/ArrayList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/ArrayStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/AvlTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Collection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/HashMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/LinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/List.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Stack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/CollectionExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/FsExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/StringExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/Util.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/Holder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/JsonTokens.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/Pair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonLexerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonParserTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonStringerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonTokenizerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/ReactiveTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/ArrayListTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/ArrayStackTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/AvlTreeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/HashMapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/LinkedListTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/CollectionExtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/FsExtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/StringExtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/UtilTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/c/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/d/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/e/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/e/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/f/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/f/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/g/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/g/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/h/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/h/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/h/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/i/0.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/i/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/i/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/reverse_proxy.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/AnimatedAny.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/AnimatedAny.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/AnimatedAny.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Calculatable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/MathExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/MathExt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatPtr.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatRange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatRange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatVector.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntPtr.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntRange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntRange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntVector.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/AnimatedAnyTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/MathExtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/MathExtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +132,23 @@
                 <item name="oxy" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="oxy" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="cobertura" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Sealed Interface" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -60,6 +157,32 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6af55695-2a6b-4eba-9300-38b0662c2478" />
+        <option name="url" value="https://github.com/ii887522/oxy.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1q3RirffKWf8Kr3uwzJQpSpeENd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,23 +193,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showRenderedDocs" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\i\repos\oxy\src\test\resources" />
       <recent name="C:\i\repos\oxy\src\test\kotlin\ii887522\oxy\functions" />
       <recent name="C:\i\repos\oxy\src\test\kotlin\ii887522\oxy\any" />
       <recent name="C:\i\repos\oxy\src\main\kotlin\ii887522\oxy\struct" />
       <recent name="C:\i\repos\oxy\src\main\kotlin\ii887522\oxy\any" />
-      <recent name="C:\i\repos\oxy\src\main\kotlin\ii887522\oxy\functions" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ii887522.oxy.collection" />
       <recent name="any" />
     </key>
   </component>
@@ -96,13 +225,15 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ii887522.oxy.*&quot;" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ii887522.oxy.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -117,7 +248,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -133,42 +264,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="oxy [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publish" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
-      <item itemvalue="Gradle.oxy [publish]" />
       <item itemvalue="Gradle.oxy [cobertura]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.oxy [cobertura]" />
         <item itemvalue="Gradle.Tests in 'ii887522.oxy'" />
-        <item itemvalue="Gradle.oxy [publish]" />
-        <item itemvalue="Gradle.oxy [publish]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1633566108760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633566108760</updated>
+    </task>
+    <servers />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -179,15 +295,31 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Ptr classes" />
     <MESSAGE value="Add Range classes" />
     <MESSAGE value="Add Vector classes" />
     <MESSAGE value="Support checking code coverage" />
     <MESSAGE value="Change environment variable names" />
     <MESSAGE value="Reduce hardcoding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduce hardcoding" />
+    <MESSAGE value="Reengineer with new features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reengineer with new features" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ii887522.oxy.struct.Pair" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

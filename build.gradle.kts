@@ -22,7 +22,7 @@ repositories {
 
 dependencies {
   implementation(kotlin("stdlib"))
-  testImplementation("junit", "junit", "4.12")
+  testImplementation("junit", "junit", "4.13")
   testRuntimeOnly("org.slf4j", "slf4j-api", "1.7.10")
 }
 
