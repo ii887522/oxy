@@ -5,101 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6abd4d0-74fd-4b1e-b844-38de7534c91a" name="Default Changelist" comment="Reengineer with new features">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/any/JsonLexer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/any/JsonParser.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/any/JsonStringer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/any/JsonTokenizer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/any/Reactive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/ArrayList.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/ArrayStack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/AvlTree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/Collection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/HashMap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/LinkedList.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/List.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/Map.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/Stack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/collection/Tree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/functions/CollectionExt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/functions/FsExt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/functions/MathExt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/functions/StringExt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/functions/Util.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonLexer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonParser.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonStringer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/JsonTokenizer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Reactive.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/ArrayList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/ArrayStack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/AvlTree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Collection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/HashMap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/LinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Map.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/collection/Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/CollectionExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/FsExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/StringExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/Util.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/Holder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/JsonTokens.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/Pair.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonLexerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonParserTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonStringerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/JsonTokenizerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/ReactiveTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/ArrayListTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/ArrayStackTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/AvlTreeTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/HashMapTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/collection/LinkedListTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/CollectionExtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/FsExtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/StringExtTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/UtilTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/c/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/d/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/e/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/e/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/f/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/f/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/g/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/g/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/h/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/h/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/h/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/i/0.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/i/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/i/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reverse_proxy.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/AnimatedAny.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/any/Calculatable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/MathExt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/functions/MathExt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatPtr.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatRange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatRange.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/FloatVector.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntPtr.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntRange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntRange.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ii887522/oxy/struct/IntVector.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/any/AnimatedAnyTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/MathExtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ii887522/oxy/functions/MathExtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +126,7 @@
       <recent name="any" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.oxy [cobertura]">
+  <component name="RunManager" selected="Gradle.Tests in 'ii887522.oxy'">
     <configuration name="Tests in 'ii887522.oxy'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
