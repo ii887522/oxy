@@ -3,7 +3,7 @@
 ## Table of contents
 - [swap](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#swap)
 - [sort](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#sort)
-- [List<T>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#listttoArray)
+- [List\<T\>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#listttoArray)
 - [Map<K, V>.toArray](https://github.com/ii887522/oxy/tree/master/docs/functions/CollectionExt.md#mapk-vtoarray)
 
 ## **swap**
