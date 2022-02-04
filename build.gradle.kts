@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "ii887522"
-version = "2.0.0"
+version = "2.0.1"
 
 cobertura {
   coverageSourceDirs = project.sourceSets.main.get().allSource.srcDirs

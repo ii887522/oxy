@@ -9,7 +9,7 @@ import ii887522.oxy.struct.*
  * It is a parser used to convert JSON tokens received from the JSON lexer into an object. Each token contains information about the type of the contained
  * value and the contained value itself if it is exists.
  */
-class JsonParser {
+internal class JsonParser {
   private enum class State {
     INITIAL, KEY, COMMA, LEFT_SQUARE_BRACKET, RIGHT_SQUARE_BRACKET, COLON, LEFT_CURLY_BRACKET, RIGHT_CURLY_BRACKET, VALUE
   }
@@ -357,7 +357,7 @@ class JsonParser {
    * @param tokens The JSON tokens to be converted.
    * @return An object that is converted from the JSON `tokens` given.
    */
-  fun run(vararg tokens: JsonToken): Any? {
+  internal fun run(vararg tokens: JsonToken): Any? {
     preRun()
     for (token in tokens) run(token)
     postRun()

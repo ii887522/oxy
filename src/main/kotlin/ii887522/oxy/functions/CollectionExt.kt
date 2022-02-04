@@ -27,7 +27,7 @@ fun <T> Array<T>.swap(leftIndex: Int, rightIndex: Int) {
  * @param compare The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both
  *   elements will be swapped, otherwise nothing happens.
  */
-inline fun <T : Comparable<T>> Array<T>.insertionSort(
+@PublishedApi internal inline fun <T : Comparable<T>> Array<T>.insertionSort(
   indices: IntRange = IntRange(0, Int.MAX_VALUE), compare: (left: T, right: T) -> Boolean = { left, right -> left > right }
 ) {
   val maxIndex = min(indices.max, size - 1)
@@ -46,7 +46,9 @@ inline fun <T : Comparable<T>> Array<T>.insertionSort(
  * @param compare The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both
  *   elements will be swapped, otherwise nothing happens.
  */
-inline fun <T : Comparable<T>> Array<T>.insertionSorts(runSize: Int = Int.MAX_VALUE, compare: (left: T, right: T) -> Boolean = { left, right -> left > right }) {
+@PublishedApi internal inline fun <T : Comparable<T>> Array<T>.insertionSorts(
+  runSize: Int = Int.MAX_VALUE, compare: (left: T, right: T) -> Boolean = { left, right -> left > right }
+) {
   for (i in indices step runSize) insertionSort(IntRange(i, i + runSize - 1), compare)
 }
 
@@ -58,7 +60,9 @@ inline fun <T : Comparable<T>> Array<T>.insertionSorts(runSize: Int = Int.MAX_VA
  * @param compare The function used to determine whether the positions of both elements should be swapped during sorting. If the function returns true, both elements
  *   will be swapped, otherwise nothing happens.
  */
-inline fun <reified T : Comparable<T>> Array<T>.mergeSort(sortedRunSize: Int = 1, compare: (left: T, right: T) -> Boolean = { left, right -> left > right }) {
+@PublishedApi internal inline fun <reified T : Comparable<T>> Array<T>.mergeSort(
+  sortedRunSize: Int = 1, compare: (left: T, right: T) -> Boolean = { left, right -> left > right }
+) {
   if (size <= 1) return
   var step = sortedRunSize shl 1
   val currentArray = Holder(arrayOfNulls<T>(size))
